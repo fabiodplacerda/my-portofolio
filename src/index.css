@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.dark-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: radial-gradient(
+      circle at 70% 50%,
+      rgba(58, 12, 163, 0.8),
+      rgba(40, 0, 90, 0.5),
+      transparent 70%
+    ),
+    linear-gradient(to right, #1a1a1a, #1a1a1a 60%, #6a00ff);
+  overflow: hidden;
+  color: #fff;
+}
+
+.light-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: radial-gradient(
+      circle at 70% 50%,
+      rgba(255, 203, 112, 0.8),
+      rgba(255, 240, 200, 0.5),
+      transparent 70%
+    ),
+    linear-gradient(to right, #f3f3f3, #f3f3f3 60%, #ffe7b5);
+  overflow: hidden;
+}
+
+.content-wrapper {
+  color: #f3f3f3;
+}
+
+nav {
+  font-size: 20px;
+  border-radius: 100px;
+  max-width: 400px !important;
+  background-color: rgba(26, 26, 26, 0.3);
+  border: #8a2be2 solid 1px;
+}
+
+.nav-link {
+  color: #f3f3f3 !important;
+}
+
+#profile-container {
+  min-height: 85vh;
+}
+
+#title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#name {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 145px;
+  line-height: 150px;
+}
+
+.button-link {
+  text-decoration: none;
+  color: #fff;
+  border: #8a2be2 solid 1px;
+  border-radius: 20px;
+  padding: 8px;
+  width: 150px;
+  text-align: center;
+}
+
+#cv-btn {
+  margin-right: 20px;
+  background-color: #8a2be2;
+}
+
+#profile-left {
+  margin-left: 50px;
+}
+
+#profile-right {
+  width: 40%;
+}
+
+#profile-photo {
+  width: 80%;
+}
+
+#about-me,
+#projects {
+  min-height: 95vh;
+}
+
+#about-container {
+  min-height: 85vh;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: rgba(106, 0, 255, 0.218) solid 1px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 15px;
+  background-color: #6d23b3;
+}
+
+.card-box-title {
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card-box-text {
+  font-size: 17px;
+}
+
+.card-box-logo {
+  width: 40px;
+  margin-bottom: 8px;
+}
+
+#about-img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+#about-text {
+  width: 60%;
+  text-align: justify;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: rgba(106, 0, 255, 0.218) solid 1px;
+  border-radius: 20px;
+  width: 350px;
+  padding: 15px;
+  background-color: #1a1a1a;
+}
+
+.project-image {
+  width: 109%;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.tech-icons {
+  margin-top: 20px;
+}
+
+.project-icon {
+  margin: 0 10px;
+  max-width: 40px;
+}
+
+.project-icon img {
+  width: 35px;
+}
+
+.project-button {
+  background-color: #8a2be2;
+  border: none;
+  width: 100px;
+  font-size: small;
+  margin: 0 5px;
+  transition: background 0.2s ease-in;
+}
+
+.project-button:hover {
+  background-color: #6821ab;
+}
+
+#contact {
+  margin-top: 100px;
+}
+
+#contact-main-container {
+  min-height: 80vh;
+}
+
+#contact-inner-container {
+  background-color: #6821ab;
+  padding: 20px;
+  width: 700px;
+  border-radius: 50px;
+}
+
+#contact-inner-container div a {
+  margin-left: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #f3f3f3;
+  transition: color 0.3s ease-in;
+}
+
+#contact-inner-container div a:hover {
+  color: #c7c7c7;
+}
+
+footer nav {
+  border: none;
+  margin: auto;
+  background: none;
+}
+
+footer nav li {
+  list-style: none;
+}
+
+footer nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3 ease-in;
+}
+
+footer nav a:hover {
+  color: #c7c7c7;
+}
+
+@media only screen and (max-width: 1400px) {
+  .card-box {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .card-box {
+    width: 30%;
+  }
+
+  #about-img-text-container {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  #about-img {
+    width: 40%;
+  }
+
+  #about-text {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #profile-left {
+    margin-left: 0;
+  }
+
+  #profile-container {
+    flex-direction: column-reverse;
+    justify-content: center !important;
+  }
+
+  #profile-photo {
+    width: 100%;
+  }
+  #title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  #name {
+    font-size: 100px;
+    text-align: center;
+  }
+
+  br {
+    display: none;
+  }
+
+  #profile-buttons-container {
+    justify-content: center;
+  }
+
+  .card-box-text {
+    font-size: 12px;
+  }
+
+  #contact-main-container {
+    min-height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #profile-photo {
+    width: 130%;
+  }
+  #title {
+    font-size: 35px;
+  }
+  #name {
+    font-size: 70px;
+  }
+  .project-card {
+    width: 70%;
+  }
+  .card-box-title {
+    font-size: 12px;
+  }
+  .card-box-text {
+    display: none;
+  }
+  #about-img-text-container {
+    margin-top: 0;
+  }
+  #contact-inner-container {
+    width: 80%;
+  }
+  #contact-inner-container div a {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  #about-text {
+    width: 80%;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .card-box {
+    margin-bottom: 50px;
+  }
+
+  .card-box-title {
+    font-size: 8px;
+  }
+
+  #contact-main-container {
+    min-height: 30vh;
+  }
+
+  #contact-inner-container {
+    flex-direction: column;
+  }
+}
