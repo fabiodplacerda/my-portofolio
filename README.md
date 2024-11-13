@@ -54,4 +54,4 @@ fabiolacerdadev@gmail.com
 
 https://www.linkedin.com/in/fabiolacerda96/
 
-https://fabiolacerda-portofolio.netlify.app/
+https://fabio-lacerda.netlify.app/
