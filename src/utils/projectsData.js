@@ -1,7 +1,7 @@
-import opImage from "../assets/op-img.png";
-import tmImg from "../assets/tm-img.png";
-import abImg from "../assets/ab-img.png";
-import rbImg from "../assets/rb-img.png";
+import opImage from "../assets/op-img.webp";
+import tmImg from "../assets/tm-img.webp";
+import abImg from "../assets/ab-img.webp";
+import rbImg from "../assets/rb-img.jpg";
 import tsImg from "../assets/ts-img.png";
 
 import {

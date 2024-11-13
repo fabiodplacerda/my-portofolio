@@ -1,4 +1,4 @@
-import photo from "./assets/Untitled-2.png";
+import photo from "./assets/fabiolacerda.webp";
 import cv from "./assets/FABIO_CV_DF.pdf";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -36,7 +36,7 @@ const Profile = () => {
           className="d-flex flex-column justify-content-center align-items-center"
           id="profile-right"
         >
-          <img src={photo} alt="" id="profile-photo" />
+          <img src={photo} alt="fabio lacerda" id="profile-photo" />
           <div>
             <a
               href="https://www.linkedin.com/in/fabiolacerda96/"

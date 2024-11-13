@@ -1,4 +1,4 @@
-import aboutImg from "./assets/0_SPjH6EGSjLcMPv8Q.png";
+import aboutImg from "./assets/about-img.webp";
 
 const AboutText = () => {
   return (
@@ -6,7 +6,7 @@ const AboutText = () => {
       className="d-flex align-items-center justify-content-around container"
       id="about-img-text-container"
     >
-      <img src={aboutImg} alt="" id="about-img" />
+      <img src={aboutImg} alt=" a coffee mug and a computer" id="about-img" />
       <p className="fs-4" id="about-text">
         Hi there! I&apos;m a passionate and driven programmer ready to launch my
         career in Software Development. I thrive on solving problems and
