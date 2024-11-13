@@ -27,7 +27,7 @@ const Profile = () => {
             >
               MY RESUME
             </a>
-            <a href="" id="contact-btn" className="button-link">
+            <a href="#contact" id="contact-btn" className="button-link">
               CONTACT
             </a>
           </div>

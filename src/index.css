@@ -84,6 +84,20 @@ nav {
 #cv-btn {
   margin-right: 20px;
   background-color: #8a2be2;
+  border: none;
+  transition: background 0.2s ease-in;
+}
+
+#cv-btn:hover {
+  background-color: #6821ab;
+}
+
+#contact-btn {
+  transition: background 0.2s ease-in;
+}
+
+#contact-btn:hover {
+  background-color: #8a2be2;
 }
 
 #profile-left {
