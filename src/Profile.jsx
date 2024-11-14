@@ -1,5 +1,5 @@
 import photo from "./assets/fabiolacerda.webp";
-import cv from "./assets/FABIO_CV_DF.pdf";
+import cv from "./assets/FABIO_CV_IT.pdf";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -12,7 +12,7 @@ const Profile = () => {
         id="profile-container"
       >
         <div className="d-flex flex-column" id="profile-left">
-          <p id="title">JUNIOR SOFTWARE DEVELOPER</p>
+          <p id="title">SOFTWARE DEVELOPER</p>
           <p id="name">
             Fabio
             <br /> Lacerda
@@ -25,7 +25,7 @@ const Profile = () => {
               id="cv-btn"
               className="button-link"
             >
-              MY RESUME
+              MY CV
             </a>
             <a href="#contact" id="contact-btn" className="button-link">
               CONTACT
