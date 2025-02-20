@@ -3,6 +3,8 @@ import tmImg from "../assets/tm-img.webp";
 import abImg from "../assets/ab-img.webp";
 import rbImg from "../assets/rb-img.jpg";
 import tsImg from "../assets/ts-img.png";
+import crImg from "../assets/cr-img.png";
+import nextJs from "../assets/next-img.svg";
 
 import {
   faSquareJs,
@@ -39,5 +41,12 @@ export const projects = [
     icon: [tsImg, faReact, faNode],
     gitHubUrl: null,
     hostUrl: "https://rainbow-vlc-demo.netlify.app/",
+  },
+  {
+    projectName: "O Caralhinho",
+    image: crImg,
+    icon: [tsImg, nextJs],
+    gitHubUrl: null,
+    hostUrl: "https://www.ocaralhinho.pt",
   },
 ];
