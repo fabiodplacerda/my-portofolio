@@ -5,7 +5,8 @@ import rbImg from "../assets/rb-img.jpg";
 import tsImg from "../assets/ts-img.png";
 import crImg from "../assets/cr-img.png";
 import nextJs from "../assets/next-img.svg";
-
+import prismaImg from "../assets/pm-img.svg";
+import psqlImg from "../assets/psql-img.svg";
 import {
   faSquareJs,
   faReact,
@@ -45,7 +46,7 @@ export const projects = [
   {
     projectName: "O Caralhinho",
     image: crImg,
-    icon: [tsImg, nextJs],
+    icon: [tsImg, nextJs, prismaImg, psqlImg],
     gitHubUrl: null,
     hostUrl: "https://www.ocaralhinho.pt",
   },
